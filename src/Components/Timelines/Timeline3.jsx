@@ -19,7 +19,7 @@ export const Timeline3 = () => {
       <div>
         <div className="hex3 w-[117px] sm:w-[147px] h-[117px] sm:h-[147px]  rotate-90 bg-gradient-to-t from-[#272727] to-[#272727CC] relative">
           <div className="absolute h-fit px-7 sm:px-10 top-[20%] sm:top-[25%] left-1 -rotate-90 flex flex-col justify-center items-end text-white">
-            <div className="text-5xl">25</div>
+            <div className="text-5xl">19</div>
             <div className="text-xl">Dec</div>
           </div>
         </div>
