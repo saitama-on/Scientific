@@ -49,7 +49,7 @@ export const Footer = () => {
                   Dr. Vijaya : +91 7708764280
                 </div>
                 <div className="text-sm lg:text-base">
-                  Dr. Avantika : +91 9605710311
+                  Dr. Avantika : +91 9650710311
                 </div>
               </div>
               <div className="flex flex-col justify-start items-start space-y-2">
@@ -64,21 +64,17 @@ export const Footer = () => {
                     Ch Swati : +91 9398428741
                   </div>
                   <div className="text-sm lg:text-base">
-                  Mohd Meeraj : +91 9001076499
+                  Shubham Khilari : +91 7987665370
                   </div>
                 </div>
               </div>
               <div className="flex flex-col justify-start items-start space-y-2">
                 <div className="uppercase drop-shadow-2xl shadow-[#5172E7] font-semibold text-base lg:text-lg">
-                  Organizing Student team members
+                  Website team members
                 </div>
                 <div className="grid grid-cols-2 place-content-center place-items-start">
                   <div className="text-sm lg:text-base">Ojas Dubey</div>
                   <div className="text-sm lg:text-base">Ganesh Prajapati</div>
-                  <div className="text-sm lg:text-base">Shubham Khilari</div>
-                  <div className="text-sm lg:text-base">
-                    Sudhanshu Tripathi
-                  </div>
                 </div>
               </div>
             </div>
