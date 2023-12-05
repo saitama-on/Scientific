@@ -1,0 +1,15 @@
+@media (min-width: 640px) {
+
+  .adjust_size{
+    font-size: 1.6rem;
+  }
+
+  .Bag {
+    width: auto;
+    margin: auto 20px;
+    height: fit-content;
+    padding: 20px;
+    font-size: medium;
+    border-radius: 10px;
+  }
+} 

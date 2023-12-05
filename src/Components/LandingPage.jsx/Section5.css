@@ -1,0 +1,51 @@
+.Mobile_version {
+  display: none;
+}
+
+.Desktop {
+  display: block;
+}
+
+@media (max-width: 1000px) {
+
+  .IMAGE {
+    display: none;
+  }
+
+  .Adjust_div {
+    width: auto;
+    margin: auto 20px;
+    height: fit-content;
+    padding: 20px;
+    font-size: medium;
+    border-radius: 10px;
+  }
+  .Heading_content {
+    width: fit-content;
+    font-size: 1.5rem;
+    display: flex;
+    gap: 0.5rem;
+    margin: auto;
+    padding-bottom: 20px;
+  }
+  .FixContent {
+    margin: auto;
+  }
+
+  .Mobile_version {
+    display: block;
+    width: fit-content;
+    margin: auto;
+  }
+  .Desktop {
+    display: none;
+  }
+
+  .Adjust_Content {
+    width: fit-content;
+    margin: auto;
+    text-align: justify;
+    padding-left: 18px;
+    font-size: 0.8rem;
+  }
+}

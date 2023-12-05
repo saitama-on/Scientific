@@ -1,0 +1,41 @@
+.INPBOX{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 5px 10px 10px 10px;
+    background-color: #F5F7FB;
+}
+
+input{
+    background: transparent;
+    flex: 1;
+    padding: 5px;
+    border: none;
+}
+
+
+#UploadButton{
+    border: 3px solid #525252;
+    border-radius: 30px;
+}
+
+#UploadButton:hover{
+    /* background-color: #525252; */
+    border: 3px solid #000;
+    color: white;
+}
+
+#SubmitButton{
+    /* border: 3px solid ; */
+    border:none;
+    background-color: #F5F5F5;
+    color: #5172E7;
+    opacity: 0.8;
+    font-weight: 700;
+    border-radius: 30px;
+}
+
+#SubmitButton:hover{
+    background-color: #5172E7;
+    color: white;
+}

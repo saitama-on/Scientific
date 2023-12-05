@@ -1,0 +1,80 @@
+
+
+@media (min-width: 768px) {
+  .container {
+    margin: auto;
+    width: 30vw;
+    height: fit-content;
+    border: 10px solid transparent;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: inherit;
+    letter-spacing: 0.1em;
+    padding: 0.4rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    color: rgba(255, 0, 0, 0.837);
+    text-align: center;
+  } 
+  
+}
+@media ( min-width:481px ) and (max-width: 768px) {
+  .container {
+    margin: auto;
+    width: 60vw;
+    height: fit-content;
+    border: 10px solid transparent;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: inherit;
+    letter-spacing: 0.1em;
+    padding: 0.4rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    color: rgba(255, 0, 0, 0.837);
+    text-align: center;
+  }
+  
+}
+
+@media (max-width: 480px) {
+  .container {
+    margin: auto;
+    width: 90vw;
+    height: fit-content;
+    border: 10px solid transparent;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: inherit;
+    letter-spacing: 0.1em;
+    padding: 0.4rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    color: rgba(255, 0, 0, 0.837);
+    text-align: center;
+  }
+  
+}
+
+  .animated {
+    background-image:
+      linear-gradient(white, white),
+      linear-gradient(180deg, rgb(226, 125, 125), #4777e6be 50%, rgba(233, 82, 52, 0.849));
+    background-repeat: no-repeat;
+    background-size: 100% 100%, 100% 200%;
+    background-position: 0 0, 0 100%;
+    background-origin: padding-box, border-box;
+    animation: highlight 1s infinite alternate;
+  }
+
+  @keyframes highlight {
+    100% {
+      background-position: 0 0, 0 0;
+    }
+  }
