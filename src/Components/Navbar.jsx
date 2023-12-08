@@ -22,10 +22,15 @@ export const Navbar = () => {
                 alt=""
               />
             </div>
-            <div className="flex flex-col uppercase justify-start items-start font-semibold text-xl tracking-wide -space-y-2.5 NavbarTitle ">
-              <div>DR SPM IIIT</div>
-              <div>NAYA RAIPUR</div>
-            </div>
+            <a
+              href="#top"
+              className="font-medium text-lg cursor-pointer Adjust hover:text-[#5172E7] duration-300"
+            >
+              <div className="flex flex-col uppercase justify-start items-start font-semibold text-xl tracking-wide -space-y-2.5 NavbarTitle ">
+                <div>DR SPM IIIT</div>
+                <div>NAYA RAIPUR</div>
+              </div>
+            </a>
           </div>
           <div className="Hamburger">
             <Hamburger toggled={isOpen} toggle={setOpen} />
@@ -69,15 +74,20 @@ export const Navbar = () => {
             Contact
           </a>
         </div>
-
-        <a
-          href="https://bit.ly/3tNICGq"
-          target="_blank"
-          class="text-[#5172E7] w-[180px] h-[48px] rounded-full border drop-shadow-lg flex justify-center items-center bg-white font-semibold text-opacity-80 cursor-pointer transition-transform transform hover:scale-105 hover:drop-shadow-xl duration-300 ease-in-out "
-          rel="noreferrer"
-        >
-          Submit Your Idea
-        </a>
+        {!isOpen ? (
+          <div className="NavbarDisplay NavbarAbout">
+            <a
+              href="https://bit.ly/3tNICGq"
+              target="_blank"
+              class="text-[#5172E7] w-[180px] h-[48px] rounded-full border drop-shadow-lg flex justify-center items-center bg-white font-semibold text-opacity-80 cursor-pointer transition-transform transform hover:scale-105 hover:drop-shadow-xl duration-300 ease-in-out "
+              rel="noreferrer"
+            >
+              Submit Your Idea
+            </a>
+          </div>
+        ) : (
+          ""
+        )}
 
         {isOpen ? (
           <>

@@ -67,60 +67,62 @@ export const ThemeBetter = () => {
 
 
     return (
-        <div className='w-full flex flex-col items-center font-extrabold space-y-10' id='themes'>
+        <div style={{ scrollMargin: "20vmin" }} id='themes'>
+            <div className='w-full flex flex-col items-center font-extrabold space-y-10' >
 
-            <div className='uppercase text-4xl font-extrabold pb-10'>Themes</div>
+                <div className='uppercase text-4xl font-extrabold pb-10'>Themes</div>
 
-            <div className='w-full flex flex-col sm:flex-row px-10  justify-center items-center sm:justify-between'>
-                <div className='basis-1/3 flex-col  bg-gradient-to-r from-[#FF8008] to-[#FFC837] inline-block text-transparent bg-clip-text text-center pt-10 '>
-                    <div className='text-[20px]'>Class</div>
-                    <div className='text-[60px]' >3-5</div>
+                <div className='w-full flex flex-col sm:flex-row px-10  justify-center items-center sm:justify-between'>
+                    <div className='basis-1/3 flex-col  bg-gradient-to-r from-[#FF8008] to-[#FFC837] inline-block text-transparent bg-clip-text text-center pt-10 '>
+                        <div className='text-[20px]'>Class</div>
+                        <div className='text-[60px]' >3-5</div>
+                    </div>
+                    <div className='basis-2/3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-x-7'>
+                        {themes["C3-5"].map((theme, index) => {
+                            return (
+                                <ThemeCard color={['#FF8008', '#FFC837']} theme={theme} key={index} />
+                            )
+                        }
+                        )}
+                    </div>
                 </div>
-                <div className='basis-2/3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-x-7'>
-                    {themes["C3-5"].map((theme, index) => {
-                        return (
-                            <ThemeCard color={['#FF8008', '#FFC837']} theme={theme} key={index} />
-                        )
-                    }
-                    )}
+
+
+                <div className='w-full flex flex-col sm:flex-row  px-10 justify-center items-center sm:justify-between'>
+                    <div className='basis-1/3 flex-col  bg-gradient-to-r from-[#0052D4] to-[#6FB1FC] inline-block text-transparent bg-clip-text text-center pt-10 '>
+                        <div className='text-[20px]'>Class</div>
+                        <div className='text-[60px]' >6-8</div>
+                    </div>
+                    <div className='basis-2/3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-7'>
+                        {themes["C5-8"].map((theme, index) => {
+                            return (
+                                <ThemeCard1 color={['#0052D4', '#6FB1FC']} theme={theme} key={index} />
+                            )
+                        }
+                        )}
+                    </div>
                 </div>
+
+
+                <div className='w-full flex flex-col sm:flex-row px-10  justify-center items-center sm:justify-between'>
+                    <div className='basis-1/3 flex-col  bg-gradient-to-r from-[#4CB8C4] to-[#3CD3AD] inline-block text-transparent bg-clip-text text-center pt-10 '>
+                        <div className='text-[20px]'>Class</div>
+                        <div className='text-[60px]'>9-12</div>
+                    </div>
+                    <div className='basis-2/3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-7 gap-y-3'>
+                        {themes["C9-12"].map((theme, index) => {
+                            return (
+                                <ThemeCard2 color={['#4CB8C4', '#3CD3AD']} theme={theme} key={index} />
+                            )
+                        }
+                        )}
+                    </div>
+                </div>
+
+
+
+
             </div>
-
-
-            <div className='w-full flex flex-col sm:flex-row  px-10 justify-center items-center sm:justify-between'>
-                <div className='basis-1/3 flex-col  bg-gradient-to-r from-[#0052D4] to-[#6FB1FC] inline-block text-transparent bg-clip-text text-center pt-10 '>
-                    <div className='text-[20px]'>Class</div>
-                    <div className='text-[60px]' >6-8</div>
-                </div>
-                <div className='basis-2/3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-7'>
-                    {themes["C5-8"].map((theme, index) => {
-                        return (
-                            <ThemeCard1 color={['#0052D4', '#6FB1FC']} theme={theme} key={index} />
-                        )
-                    }
-                    )}
-                </div>
-            </div>
-
-
-            <div className='w-full flex flex-col sm:flex-row px-10  justify-center items-center sm:justify-between'>
-                <div className='basis-1/3 flex-col  bg-gradient-to-r from-[#4CB8C4] to-[#3CD3AD] inline-block text-transparent bg-clip-text text-center pt-10 '>
-                    <div className='text-[20px]'>Class</div>
-                    <div className='text-[60px]'>9-12</div>
-                </div>
-                <div className='basis-2/3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-7 gap-y-3'>
-                    {themes["C9-12"].map((theme, index) => {
-                        return (
-                            <ThemeCard2 color={['#4CB8C4', '#3CD3AD']} theme={theme} key={index} />
-                        )
-                    }
-                    )}
-                </div>
-            </div>
-
-
-
-
         </div>
     )
 }
