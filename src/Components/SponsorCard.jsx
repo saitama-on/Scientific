@@ -7,7 +7,7 @@ export const SponsorCard = ({sponser}) => {
                {sponser.name}
             </div>
             <div className='text-xl' >
-                <img src={sponser.image} className='w-[270px] h-[210px]  rounded-md'/>
+                <img src={sponser.image} alt={sponser.name} className='w-[270px] h-[210px]  rounded-md' />
             </div>
         </div>
     )
