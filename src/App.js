@@ -11,7 +11,7 @@ import { Footer } from "./Components/Footer";
 import { ThemeBetter } from "./Components/Themes/ThemeBetter";
 
 // import { Sponsors } from './Components/Sponsors';
-// import StudentList from './Components/StudentList';
+import {StudentList} from './Components/StudentList';
 
 // import { Themes } from './Components/Themes/Themes';
 // import { IdeaSubmissionForm } from './Components/LandingPage.jsx/IdeaSubmissionForm';
@@ -19,10 +19,9 @@ import { ThemeBetter } from "./Components/Themes/ThemeBetter";
 function App() {
   return (
     <div className="bg-[#D9D9D9] bg-opacity-5">
-      <div class="fixed top-0 w-full bg-white shadow-md z-20">
         <Navbar />
-      </div>
-      {/* <StudentList/> */}
+        {/* <StudentList/> */}
+      <StudentList/>
       <HeroSection />
       <div className="lg:h-[75px]"></div>
       <Section1 />

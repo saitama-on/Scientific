@@ -6,7 +6,7 @@ AOS.init();
 export const HeroSection = () => {
   return (
     <>
-      <div className="Back_Area" id="top">
+      <div className="Back_Area" >
         <div className="flex flex-col justify-center items-start h-[540px] px-10 rounded-xl MobileVersion">
           <div className="flex flex-col justify-start items-start  space-y-1">
             <div className="font-extrabold text-transparent text-[4.25rem] bg-clip-text bg-gradient-to-r from-[#4776E6] to-[#8E54E9] SCIFISIZE">

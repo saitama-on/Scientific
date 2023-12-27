@@ -130,6 +130,6 @@
 .Back_Area {
   display: flex;
   justify-content: space-between;
-  margin-top: 15vmin;
+  margin-top: 2vmin;
   scroll-margin: 10vmin;
 }

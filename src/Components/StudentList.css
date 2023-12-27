@@ -2,7 +2,8 @@
 
 @media (min-width: 768px) {
   .container {
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     width: 30vw;
     height: fit-content;
     border: 10px solid transparent;
@@ -17,6 +18,9 @@
     border-radius: 15px;
     color: rgba(255, 0, 0, 0.837);
     text-align: center;
+    margin-top: 1vw;
+    /* top: 100vw; */
+    
   } 
   
 }
@@ -37,6 +41,7 @@
     border-radius: 15px;
     color: rgba(255, 0, 0, 0.837);
     text-align: center;
+    margin-top: 2vw;
   }
   
 }
@@ -58,6 +63,7 @@
     border-radius: 15px;
     color: rgba(255, 0, 0, 0.837);
     text-align: center;
+    margin-top: 2vw;
   }
   
 }
