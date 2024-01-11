@@ -24,7 +24,9 @@ function App() {
         {/* <StudentList/> */}
       <StudentList/>
       <HeroSection />
-      <div className="lg:h-[75px]"></div>
+      <div className="lg:h-[10px]"></div>
+      <Sponsors />
+      <div className="h-[50px]"></div>
       <Section1 />
       <Section2 />
       <Section3 />
@@ -40,8 +42,7 @@ function App() {
       <div className="h-[75px]"></div>
       <JudingCriteria />
       <div className="h-[125px]"></div>
-      <Sponsors />
-      <div className="h-[50px]"></div>
+      
       {/* <IdeaSubmissionForm /> */}
       <div className="h-[100px]"></div>
       <Footer />

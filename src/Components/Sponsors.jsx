@@ -25,7 +25,8 @@ const Sponsers=[
 
 export const Sponsors = () => {
     return (
-        
+        <div className='text-center'>
+            <h1 className='text-5xl font-bold mb-9 '>Our Sponsors</h1>
         <div className='flex justify-center items-center'>
            {Sponsers.map((sponser, index) => {
                         return (
@@ -33,6 +34,7 @@ export const Sponsors = () => {
                         )
                     }
                     )}
+        </div>
         </div>
     )
 
