@@ -9,6 +9,7 @@ import { Timeline } from "./Components/Timeline";
 import { JudingCriteria } from "./Components/JudingCriteria";
 import { Footer } from "./Components/Footer";
 import { ThemeBetter } from "./Components/Themes/ThemeBetter";
+import { Sponsors } from "./Components/Sponsors";
 
 // import { Sponsors } from './Components/Sponsors';
 import {StudentList} from './Components/StudentList';
@@ -39,7 +40,7 @@ function App() {
       <div className="h-[75px]"></div>
       <JudingCriteria />
       <div className="h-[125px]"></div>
-      {/* <Sponsors /> */}
+      <Sponsors />
       <div className="h-[50px]"></div>
       {/* <IdeaSubmissionForm /> */}
       <div className="h-[100px]"></div>

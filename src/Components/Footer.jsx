@@ -58,10 +58,10 @@ export const Footer = () => {
                 </div>
                 <div className="flex flex-col justify-start items-start space-y-0.5">
                   <div className="text-sm lg:text-base">
-                    Shivam Kushwaha : +91 6309106555
+                    Shivam Kushwaha : +91 9198364979
                   </div>
                   <div className="text-sm lg:text-base">
-                    Ch Swati : +91 9398428741
+                    Ch Swati : +91 9439776497
                   </div>
                   <div className="text-sm lg:text-base">
                     Shubham Khilari : +91 7987665370
