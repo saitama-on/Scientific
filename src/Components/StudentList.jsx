@@ -5,11 +5,11 @@ export const StudentList = () => {
   return (
 <div className="container  animated">  
      <a
-    href="./finalList.pdf"
+    href="./Scintfic winners.pdf"
     target="_blank"
     rel="noreferrer"
     >
-   List of Shortlisted Candidates for Ideathon 6.0
+   List of Winners of Ideathon 6.0
   </a>
      </div>
   )
