@@ -9,7 +9,7 @@ export const Section3 = () => {
       </div>
       <div className="flex flex-col justify-center items-center lg:w-[480px] lg:h-[600px] mr-14 space-y-6 px-4 ADJUSTMENT23">
         <div className="text-5xl text-transparent  bg-clip-text bg-gradient-to-r from-[#B24592] to-[#F15F79] font-bold adjust_size">
-          Ideathon 6.0
+          Ideathon 7.0
         </div>
         <div className="text-center font-semibold text-base Sec3AdjustContent">
           Innovative brain and enthusiasm to convert ideas into reality is key
@@ -21,7 +21,7 @@ export const Section3 = () => {
         </div>
         <div className="text-center font-semibold text-base Sec3AdjustContent">
           Compete with the innovative and enthusiastic minds of the nation in
-          IDEATHON 6.0. Come and join us at DSPM IIIT Naya Raipur to showcase
+          IDEATHON 7.0. Come and join us at DSPM IIIT Naya Raipur to showcase
           your innovative and creative ideas and prototypes to solve real life
           problems.
         </div>

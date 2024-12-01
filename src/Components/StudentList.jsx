@@ -9,7 +9,7 @@ export const StudentList = () => {
     target="_blank"
     rel="noreferrer"
     >
-   List of Winners of Ideathon 6.0
+   List of Winners of Ideathon 7.0
   </a>
      </div>
   )

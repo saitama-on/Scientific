@@ -9,7 +9,7 @@ export const Timeline2 = () => {
                         Submission Closes
                     </div>
                     <div className=" text-transparent text-base font-bold bg-clip-text bg-gradient-to-r from-[#606C88] to-[#3F4C6B]">
-                        December 15, 2023
+                        December 20, 2024
                     </div>
                     <div className="text-black font-medium hidden sm:block text-sm">
                         The team will submit their abstract of the project ideas breifing the scientific proposal based on the chosen theme
@@ -26,7 +26,7 @@ export const Timeline2 = () => {
                 <div className="hex3 w-[117px] sm:w-[147px] h-[117px] sm:h-[147px] rotate-90 bg-gradient-to-t from-[#272727] to-[#272727CC] relative">
                     <div className="absolute h-fit px-7 sm:px-10 top-[20%] sm:top-[25%] left-1 -rotate-90 flex flex-col justify-center items-end text-white">
                         <div className="text-5xl">
-                            15
+                            20
                         </div>
                         <div className="text-xl">
                             Dec

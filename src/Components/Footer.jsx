@@ -43,13 +43,7 @@ export const Footer = () => {
                   Faculty Co-ordinators
                 </div>
                 <div className="text-sm lg:text-base">
-                  Dr. Sresha : +91 7489914304
-                </div>
-                <div className="text-sm lg:text-base">
-                  Dr. Vijaya : +91 7708764280
-                </div>
-                <div className="text-sm lg:text-base">
-                  Dr. Avantika : +91 9650710311
+                  Dr. Kavita Jaiswal 
                 </div>
               </div>
               <div className="flex flex-col justify-start items-start space-y-2">

@@ -13,7 +13,7 @@ export const Section1 = () => {
       <div className="lg:flex lg:flex-col justify-center items-center space-y-6  Adjust_content1">
         <div className="text-4xl font-extrabold Scintific text-[#4776E6]">
           SCI<span id="eta">&#951;</span>
-          <span id="prime">&#8242;</span>TFIC 2k24
+          <span id="prime">&#8242;</span>TFIC 2k25
         </div>
         <div className="lg:w-[400px] font-semibold text-center lg:text-[0.9rem] text-[0.87rem] FIX">
           It is a science and technology showcase and exhibition aimed at school
