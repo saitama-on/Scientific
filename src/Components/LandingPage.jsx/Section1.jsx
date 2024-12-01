@@ -11,11 +11,11 @@ export const Section1 = () => {
         <img src="./assets/section1.png" className="scale-[0.85]" alt="" />
       </div>
       <div className="lg:flex lg:flex-col justify-center items-center space-y-6  Adjust_content1">
-        <div className="text-4xl font-extrabold Scintific text-[#4776E6]">
+        <div className="text-5xl font-extrabold Scintific text-[#4776E6]">
           SCI<span id="eta">&#951;</span>
           <span id="prime">&#8242;</span>TFIC 2k25
         </div>
-        <div className="lg:w-[400px] font-semibold text-center lg:text-[0.9rem] text-[0.87rem] FIX">
+        <div className="lg:w-[600px] from-neutral-600 text-left lg:text-[1.4rem] text-[0.87rem] FIX">
           It is a science and technology showcase and exhibition aimed at school
           students across the nation. It boosts the students’ enthusiasm to
           learn about the latest advancements and innovations in the modern

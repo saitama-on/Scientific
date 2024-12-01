@@ -21,11 +21,11 @@ function App() {
   return (
     <div className="bg-[#D9D9D9] bg-opacity-5">
         <Navbar />
-        {/* <StudentList/> */}
-      <StudentList/>
+        
+      {/* <StudentList/> */}
       <HeroSection />
       <div className="lg:h-[10px]"></div>
-      <Sponsors />
+      {/* <Sponsors /> */}
       <div className="h-[50px]"></div>
       <Section1 />
       <Section2 />

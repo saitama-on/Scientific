@@ -1,135 +1,142 @@
-.SET_IMAGE {
-  position: relative;
-}
-
-@media (max-width: 1000px) {
-  .SCIFISIZE {
-    font-size: 3rem;
-  }
-  .TEXTSIZE {
-    font-size: 0.93rem;
-    font-weight: 700;
-    text-align: justify;
-  }
-  .TEXTSIZE1 {
-    font-size: 0.8rem;
-    text-align: justify;
-    width: auto; 
-  }
-
-  .idea_adjust{
-    font-size: 2rem;
-    padding-top: 1rem;
-  }
-
-  .size_adjust{
-    font-size: 1rem;
-    line-height: 2rem;
-  }
-
-  .BUTTON {
-    width: 100%;
-    gap:1rem;
-  }
-
-  .BUTTON1 {
-    width: 100%;
-    font-size: 12px;
-    margin: 4px;
-    height: 45px;
-  }
-
-  .SET_IMAGE img{
-   height: 30rem;
-  }
-
-  .Back_Area {
-     height: 35rem;
-  }
-}
-
-
-@media (max-width: 700px) {
-
-  .BUTTON {
-    width: 100%;
-    gap:2rem;
-    margin-left: 40%;
-    margin-right: 40%;
-  }
-
-  .BUTTON1 {
-    width: 100%;
-    font-size: 12px;
-    height: 44px;
-  }
-
-  .SET_IMAGE{
-    height:fit-content;
-  }
-}
-
-@media (max-width: 640px) {
-  .MobileVersion {
-    width: auto;
-    margin: auto 20px;
-    height: fit-content;
-    padding: 20px;
-    font-size: medium;
-    border-radius: 10px;
-
-  }
-
-  .SCIFISIZE {
-    font-size: 2.3rem;
-    margin: auto;
-  }
-  .TEXTSIZE {
-    font-size: 0.93rem;
-    font-weight: 700;
-    margin: auto;
-    text-align: justify;
-  }
-  .TEXTSIZE1 {
-    font-size: 0.8rem;
-    text-align: justify;
-    width: auto; 
-  }
-
-  .idea_adjust{
-    font-size: 2rem;
-    padding-top: 1rem;
-    margin: auto;
-  }
-
-  .size_adjust{
-    margin: auto;
-    font-size: 1rem;
-    padding: 1rem;
-  }
-
-  .BUTTON {
-    width: 100%;
-    gap:1rem;
-    margin-left: 0%;
-  }
-
-  .BUTTON1 {
-    width: 100%;
-    font-size: 12px;
-    margin: 4px;
-    height: 37px;
-  }
-  .SET_IMAGE {
-    display: none;
-    height: fit-content;
-  }
-
-}
-
+/* Base Styles */
 .Back_Area {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-top: 2vmin;
   scroll-margin: 10vmin;
+  padding: 2rem;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.SET_IMAGE {
+  position: absolute;
+  top: 50%;
+  right: -5%;
+  transform: translateY(-50%);
+  width: 50%;
+  max-width: 632px;
+  z-index: -1;
+}
+
+.SET_IMAGE img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  transform: scale(0.9);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1280px) {
+  .Back_Area {
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .SET_IMAGE {
+    position: static;
+    transform: none;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  .SET_IMAGE img {
+    max-width: 80%;
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 768px) {
+  .Back_Area {
+    padding: 0.5rem;
+  }
+
+  .SCIFISIZE {
+    font-size: 2.5rem !important;
+  }
+
+  .TEXTSIZE, .TEXTSIZE1 {
+    font-size: 0.9rem !important;
+    width: 100% !important;
+  }
+
+  .BUTTON {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .BUTTON1 {
+    width: 100%;
+    max-width: 250px;
+    font-size: 0.875rem;
+    height: 44px;
+  }
+}
+
+@media (max-width: 480px) {
+  .SCIFISIZE {
+    font-size: 2rem !important;
+  }
+
+  .SET_IMAGE {
+    display: none;
+  }
+}
+
+/* Typography Improvements */
+.SCIFISIZE {
+  font-size: 4.25rem;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+.TEXTSIZE {
+  font-size: 1.75rem;
+  line-height: 1.3;
+}
+
+.TEXTSIZE1 {
+  font-size: 1rem;
+  line-height: 1.5;
+  max-width: 550px;
+}
+
+/* Button Styles */
+.BUTTON1 {
+  transition: all 0.3s ease;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.BUTTON1:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Accessibility Improvements */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Print Styles */
+@media print {
+  .Back_Area {
+    flex-direction: column;
+  }
+
+  .SET_IMAGE {
+    display: none;
+  }
 }
