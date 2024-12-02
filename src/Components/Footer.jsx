@@ -43,7 +43,11 @@ export const Footer = () => {
                   Faculty Co-ordinators
                 </div>
                 <div className="text-sm lg:text-base">
-                  Dr. Kavita Jaiswal 
+                  Dr. Kavita Jaiswal (Faculty Co-ordinator ) +917000041643
+                 
+                </div>
+                <div className="text-sm lg:text-base">
+                  Dr Aruna Shukla ( Co-coordinator) +918851-219024 
                 </div>
               </div>
               <div className="flex flex-col justify-start items-start space-y-2">
@@ -52,13 +56,15 @@ export const Footer = () => {
                 </div>
                 <div className="flex flex-col justify-start items-start space-y-0.5">
                   <div className="text-sm lg:text-base">
-                    Shivam Kushwaha : +91 9198364979
+                  Anushka Ekka - 7828707144
+
                   </div>
                   <div className="text-sm lg:text-base">
-                    Ch Swati : +91 9439776497
+                  Shreyansh Kushwaha- 9827302564
+
                   </div>
                   <div className="text-sm lg:text-base">
-                    Shubham Khilari : +91 7987665370
+                  Vaishnavi Shrivastava- 7972247523
                   </div>
                 </div>
               </div>
@@ -67,8 +73,9 @@ export const Footer = () => {
                   Website team members
                 </div>
                 <div className="grid grid-cols-2 place-content-center place-items-start">
-                  <div className="text-sm lg:text-base">Ojas Dubey</div>
-                  <div className="text-sm lg:text-base">Ganesh Prajapati</div>
+                  <div className="text-sm lg:text-base">Yash Joshi</div><br></br>
+                  <div className="text-sm lg:text-base">Chiman</div>
+                  <div className="text-sm lg:text-base">Yog kumar</div>
                 </div>
               </div>
               <div className="flex flex-col justify-start items-start space-y-2">

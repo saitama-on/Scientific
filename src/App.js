@@ -5,11 +5,13 @@ import { Section2 } from "./Components/LandingPage.jsx/Section2";
 import { Section3 } from "./Components/LandingPage.jsx/Section3";
 import { Section4 } from "./Components/LandingPage.jsx/Section4";
 import { Section5 } from "./Components/LandingPage.jsx/Section5";
+import { TechExpo } from "./Components/LandingPage.jsx/TechExpo";
 import { Timeline } from "./Components/Timeline";
 import { JudingCriteria } from "./Components/JudingCriteria";
 import { Footer } from "./Components/Footer";
 import { ThemeBetter } from "./Components/Themes/ThemeBetter";
 import { Sponsors } from "./Components/Sponsors";
+import {SubmitIdea} from "./Components/SubmitIdea"
 
 // import { Sponsors } from './Components/Sponsors';
 import {StudentList} from './Components/StudentList';
@@ -21,6 +23,7 @@ function App() {
   return (
     <div className="bg-[#D9D9D9] bg-opacity-5">
         <Navbar />
+        {/* <SubmitIdea/> */}
         
       {/* <StudentList/> */}
       <HeroSection />
@@ -32,6 +35,7 @@ function App() {
       <Section3 />
       <div className="lg:h-[175px]"></div>
       <Section4 />
+      <TechExpo/>
       <div className="lg:h-[75px]"></div>
       <Section5 />
       <div className="h-[75px]"></div>
