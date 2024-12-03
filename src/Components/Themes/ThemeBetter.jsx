@@ -71,7 +71,7 @@ export const ThemeBetter = () => {
   return (
     <div
       style={{ scrollMargin: "20vmin" }}
-      className="w-full flex flex-col items-center font-extrabold space-y-10"
+      className="w-full flex flex-col items-center font-extrabold space-y-8"
       id="themes"
     >
       <div className="uppercase text-4xl font-extrabold pb-10">Themes</div>
@@ -81,13 +81,14 @@ export const ThemeBetter = () => {
           <div className="text-[20px]">Class</div>
           <div className="text-[60px]">3-5</div>
         </div>
-        <div className="basis-2/3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-x-7">
+        <div className="basis-2/3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-x-5">
           {themes["C3-5"].map((theme, index) => {
             return (
               <ThemeCard
                 color={["#FF8008", "#FFC837"]}
                 theme={theme}
                 key={index}
+                
               />
             );
           })}

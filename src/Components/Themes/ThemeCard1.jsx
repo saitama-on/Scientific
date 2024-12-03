@@ -5,7 +5,7 @@ export const ThemeCard1 = ({ theme, color }) => {
   // const [show, setShow] = useState(false)
 
   return (
-    <div className="w-[14rem] flex flex-col ">
+    <div className="w-[17rem] flex flex-col ">
       <div className="w-full h-[14vw]">
         <img
           className="w-full h-full object-cover"
