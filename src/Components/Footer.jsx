@@ -45,7 +45,7 @@ export const Footer = () => {
                   Faculty Co-ordinators
                 </div>
                 <div className="text-sm lg:text-base">
-                  Dr. Kavita Jaiswal (Faculty Co-ordinator ) +917000041643
+                  Dr. Kavita Jaiswal (Co-ordinator ) +917000041643
                  
                 </div>
                 <div className="text-sm lg:text-base">
