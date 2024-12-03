@@ -6,7 +6,7 @@ export const Section2 = () => {
     <div className="lg:flex lg:flex-col justify-center items-center py-4 Box_sizing" >
       <div className="text-5xl font-extrabold SCIFI text-[#4776E6]">Why  SCI<span id="eta">&#951;</span>
               <span id="prime">&#8242;</span>TFIC ?</div>
-      <div className="text-[1.4rem] from-neutral-600 pt-6 text-left lg:w-[950px] AdjustContent3">
+      <div className="text-[1.4rem] from-neutral-600 pt-6 text-justify lg:w-[950px] AdjustContent3">
         <ol style={{ listStyleType: "initial" }}>
           <li className="py-1.5">
             To bring awareness about the recent science and technological

@@ -8,7 +8,7 @@ export const TechExpo= ()=>{
             <div className="text-5xl text-transparent  bg-clip-text bg-gradient-to-r from-[#B24592] to-[#F15F79] font-bold adjust_size">
               TechExpo
             </div>
-            <div className="text-left text-[1.2rem] text-base ">
+            <div className="text-justify text-[1.2rem] text-base ">
             
       <p>•The Tech Expo is a flagship segment of Scientific, designed to spotlight the innovative spirit of IIIT-NR students.</p>
             

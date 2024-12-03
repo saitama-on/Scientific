@@ -29,6 +29,7 @@ export const HeroSection = () => {
               Compete with the innovative and enthusiastic minds of the nation
               in IDEATHON 7.0.
             </div>
+            <div className="text-base  text-transparent  bg-clip-text bg-gradient-to-r from-[#272727] to-[#414345] font-bold w-[550px] pt-2 TEXTSIZE1"> Stand a chance to win exciting cash prizes for securing 1st, 2nd, and 3rd positions in each category. </div>
             <div className="text-base  text-transparent  bg-clip-text bg-gradient-to-r from-[#272727] to-[#414345] font-bold  w-[550px] pt-1 TEXTSIZE1">
               Come and join us at DSPM IIIT Naya Raipur to showcase your
               innovative and creative ideas and prototypes to solve real life

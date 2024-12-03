@@ -15,7 +15,7 @@ export const Section1 = () => {
           SCI<span id="eta">&#951;</span>
           <span id="prime">&#8242;</span>TFIC 2k25
         </div>
-        <div className="lg:w-[600px] from-neutral-600 text-left lg:text-[1.4rem] text-[0.87rem] FIX">
+        <div className="lg:w-[600px] from-neutral-600 text-justify lg:text-[1.4rem] text-[0.87rem] FIX">
           It is a science and technology showcase and exhibition aimed at school
           students across the nation. It boosts the students’ enthusiasm to
           learn about the latest advancements and innovations in the modern

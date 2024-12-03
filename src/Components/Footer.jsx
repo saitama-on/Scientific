@@ -15,6 +15,8 @@ export const Footer = () => {
               </div>
               <div className="drop-shadow-xl shadow-[#5172E7]">with US.</div>
             </div>
+            <div className="text-[1.7rem]  text-transparent bg-clip-text bg-gradient-to-r from-[#B24592] to-[#F15F79] font-semibold ">Email : scientfic_iiitnr@iiitnr.edu.in</div>
+        
             <div className="flex flex-col justify-start items-start text-sm lg:text-base  space-y-2">
               <div>
                 <img

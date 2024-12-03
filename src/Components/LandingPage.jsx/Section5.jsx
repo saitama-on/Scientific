@@ -40,7 +40,7 @@ export const Section5 = () => {
           </div>
         </div>
         <div className="w-8/12 font-semibold Adjust_Content">
-          <ol style={{ listStyleType: "decimal" }}>
+          <ol style={{ listStyleType: "decimal" ,  textAlign:'justify' }}>
             <li className="py-1.5">
               {" "}
               Make a team (maximum 3 people allowed in a team).
