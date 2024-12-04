@@ -141,13 +141,10 @@ export const Footer = () => {
                 Faculty Co-ordinators
               </div>
               <div className="text-sm lg:text-base">
-                Dr. Sresha : +91 7489914304
+                Dr. Kavita Jaiswal: +917000041643
               </div>
               <div className="text-sm lg:text-base">
-                Dr. Vijaya : +91 7708764280
-              </div>
-              <div className="text-sm lg:text-base">
-                Dr. Avantika : +91 9605710311
+                Dr. Aruna Shukla  : +91 8851219024 
               </div>
             </div>
             <div className="flex flex-col justify-start items-start space-y-1">
@@ -156,13 +153,13 @@ export const Footer = () => {
               </div>
               <div className="flex flex-col justify-start items-start space-y-0.5">
                 <div className="text-sm lg:text-base">
-                  Shivam Kushwaha : +91 6309106555
+                Anushka Ekka - 7828707144
                 </div>
                 <div className="text-sm lg:text-base">
-                  Ch Swati: +91 9398428741
+                Shreyansh Kushwaha- 9827302564
                 </div>
                 <div className="text-sm lg:text-base">
-                  Shubham Khilari : +91 9001076499
+                Vaishnavi Shrivastava- 7972247523
                 </div>
               </div>
             </div>
@@ -171,8 +168,11 @@ export const Footer = () => {
                 Organizing Student team members
               </div>
               <div className="grid grid-cols-2 place-content-center place-items-start">
-                <div className="text-sm lg:text-base">Ojas Dubey</div>
-                <div className="text-sm lg:text-base">Ganesh Prajapati</div>
+                <div className="text-sm lg:text-base">Yash Joshi</div>
+                <div className="text-sm lg:text-base">Chiman</div>
+                <div className="text-sm lg:text-base">Yog Kumar</div>
+
+
                 <div className="text-sm lg:text-base"></div>
               </div>
             </div>
