@@ -15,7 +15,7 @@ export const Footer = () => {
               </div>
               <div className="drop-shadow-xl shadow-[#5172E7]">with US.</div>
             </div>
-            <div className="text-[1.7rem]  text-transparent bg-clip-text bg-gradient-to-r from-[#B24592] to-[#F15F79] font-semibold ">Email : scientfic_iiitnr@iiitnr.edu.in</div>
+            <div className="text-[1.7rem]  text-transparent bg-clip-text bg-gradient-to-r from-[#B24592] to-[#F15F79] font-semibold ">Email : scintfic_iiitnr@iiitnr.ac.in</div>
         
             <div className="flex flex-col justify-start items-start text-sm lg:text-base  space-y-2">
               <div>
@@ -135,6 +135,7 @@ export const Footer = () => {
               Get in TOUCH WITH US.
             </div>
           </div>
+          <div className="text-[1.7rem]  text-transparent bg-clip-text bg-gradient-to-r from-[#B24592] to-[#F15F79] font-semibold ">Email : scintfic_iiitnr@iiitnr.ac.in</div>
           <div className="flex flex-col justify-center items-start space-y-3">
             <div className="flex flex-col justify-start items-start space-y-1">
               <div className="uppercase drop-shadow-2xl shadow-[#5172E7] font-semibold text-base lg:text-lg">
