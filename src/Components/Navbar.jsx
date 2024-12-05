@@ -134,7 +134,7 @@ export const Navbar = () => {
                 Contact
               </a>
               <a
-                href="https://bit.ly/3tNICGq"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSd_XP-cGs7wKU9QJ9VkP-S8GaaSDEk-TfzqJ5og2VsDLlJ9jA/viewform?usp=sharing"
                 target="_blank"
                 className="text-[#5172E7] p-3 rounded-full border drop-shadow-lg  bg-white font-semibold text-opacity-80 cursor-pointer hover:drop-shadow-xl transition duration-100 SubmitIdea "
                 rel="noreferrer"
