@@ -76,8 +76,8 @@ export const Footer = () => {
                 </div>
                 <div className="grid grid-cols-2 place-content-center place-items-start">
                   <div className="text-sm lg:text-base">Yash Joshi</div><br></br>
-                  <div className="text-sm lg:text-base">Chiman</div>
-                  <div className="text-sm lg:text-base">Yog kumar</div>
+                  <div className="text-sm lg:text-base">Chiman Esda</div>
+                  <div className="text-sm lg:text-base">Yog Verma</div>
                 </div>
               </div>
               <div className="flex flex-col justify-start items-start space-y-2">
