@@ -12,6 +12,7 @@ import { Footer } from "./Components/Footer";
 import { ThemeBetter } from "./Components/Themes/ThemeBetter";
 import { Sponsors } from "./Components/Sponsors";
 import {SubmitIdea} from "./Components/SubmitIdea"
+import {Register} from "./Components/Register.jsx"
 
 // import { Sponsors } from './Components/Sponsors';
 import {StudentList} from './Components/StudentList';
@@ -27,7 +28,9 @@ function App() {
         
       {/* <StudentList/> */}
       <HeroSection />
+      
       <div className="lg:h-[10px]"></div>
+      <Register/>
       {/* <Sponsors /> */}
       <div className="h-[50px]"></div>
       <Section1 />
