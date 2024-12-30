@@ -13,6 +13,7 @@ import { ThemeBetter } from "./Components/Themes/ThemeBetter";
 import { Sponsors } from "./Components/Sponsors";
 import {SubmitIdea} from "./Components/SubmitIdea"
 import {Register} from "./Components/Register.jsx"
+import {SubClo } from "./Components/SubClosed"
 
 // import { Sponsors } from './Components/Sponsors';
 import {StudentList} from './Components/StudentList';
@@ -24,6 +25,7 @@ function App() {
   return (
     <div className="bg-[#D9D9D9] bg-opacity-5">
         <Navbar />
+        <SubClo/>
         {/* <SubmitIdea/> */}
         
       {/* <StudentList/> */}
